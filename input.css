@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#start {
+  background-image: linear-gradient(
+    0deg,
+    hsl(44deg 80% 66%) 0%,
+    hsl(48deg 78% 72%) 19%,
+    hsl(52deg 78% 79%) 27%,
+    hsl(57deg 82% 87%) 34%,
+    hsl(58deg 90% 91%) 41%,
+    hsl(51deg 78% 89%) 47%,
+    hsl(45deg 68% 87%) 53%,
+    hsl(40deg 59% 84%) 59%,
+    hsl(37deg 52% 84%) 66%,
+    hsl(36deg 44% 84%) 73%,
+    hsl(35deg 34% 85%) 81%,
+    hsl(33deg 24% 85%) 100%
+  );
+}
+
+#tooltip {
+  background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.tooltip {
+  @apply invisible absolute
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50
+}
+
+/* https://www.joshwcomeau.com/gradient-generator?colors=f7b520|e6b15d|fee197|ffef87&angle=0&colorMode=hsl&precision=18&easingCurve=0.25|0.75|0.75|0.25 */
+#projects {
+}

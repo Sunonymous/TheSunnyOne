@@ -1,0 +1,16 @@
+{
+  "name": "The Sunny One",
+  "version": "0.5.0",
+  "description": "A personal website for Sunny to host his nonsense.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Sunny",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
