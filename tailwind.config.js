@@ -4,23 +4,11 @@ module.exports = {
   theme: {
     extend: {
       dropShadow: {
-        'slightGlow': [
-           '-1px 1px 3px rgba(222, 222, 222, 0.4)',
-            '1px 1px 3px #FFF',
-           '1px -1px 3px #FFF',
-          '-1px -1px 3px #FFF',
-        ],
         'emWhite': [
            '-1px 1px 0.5px #FFF',
             '1px 1px 0.5px #FFF',
            '1px -1px 0.5px #FFF',
           '-1px -1px 0.5px #FFF',
-        ],
-        'emYellow': [
-           '-1px 1px 0 #3B82F6',
-            '1px 1px 0 #3B82F6',
-           '1px -1px 0 #3B82F6',
-          '-1px -1px 0 #3B82F6',
         ],
       },
       keyframes: {
