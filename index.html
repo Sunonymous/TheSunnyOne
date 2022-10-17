@@ -15,7 +15,8 @@
   <div class="relative">
     <!-- Start -->
     <div class="sticky top-0 h-screen flex flex-col items-center justify-around text-white" id="start">
-      <h1 class="text-4xl sm:text-4xl md:text-7xl overline self-start m-4 mt-20 text-white drop-shadow-emWhite "
+      <h1
+        class="text-5xl sm:text-6xl md:text-7xl sm:font-medium md:font-semibold overline self-start m-3 sm:m-4 md:m-4 mt-6 sm:mt-12 md:mt-20 text-white"
         id="greeting">
         Good...</h1>
       <!-- Pictures of Me -->
@@ -23,20 +24,24 @@
         src="./resources/images/standingMeColor.jpg"
         alt="A color image of Sunny, standing and smiling by some flowers.">
       <img class="absolute max-w-1/2 h-1/2 rounded-full transition-all duration-300 hover:opacity-0"
-        src="./resources/images/standingMe.jpg" alt="A grayscale image of Sunny, standing and smiling by some flowers." id="grayMe">
+        src="./resources/images/standingMe.jpg" alt="A grayscale image of Sunny, standing and smiling by some flowers."
+        id="grayMe">
       <!-- Spacer -->
       <div class="flex grow"></div>
       <!-- Headline -->
       <div id="headline" class="bg-white text-center p-3 rounded-lg m-2 text-md drop-shadow-lg text-blue-600">
         <p class="inline-block">I am Sunny, a </p>
         <div class="inline has-tooltip underline underline-offset-4 decoration-dotted">
-          <span class="tooltip text-sm rounded shadow-lg p-1 bg-gray-700 text-white -mt-8">A mononym is a person with only
-            one name.</span>mononymous</div>
+          <span class="tooltip text-sm rounded shadow-lg p-1 bg-gray-700 text-white -mt-8">A mononym is a person with
+            only
+            one name.</span>mononymous
+        </div>
         <p class="inline-block">web developer and human.</p>
       </div>
-      <p class="border sm:m-2 md:m-4 p-1 px-2 rounded-lg bg-white text-emerald-200"><a class="font-semibold text-emerald-500"
-          href="#end" id="shortOnTime">Short on time?<svg class="animate-pulse inline relative bottom-[2px] fill-white"
-            style="width:24px;height:24px" viewBox="0 0 24 24">
+      <p class="border sm:m-2 md:m-4 p-1 px-2 rounded-lg bg-white text-emerald-200"><a
+          class="font-semibold text-emerald-500" href="#end" id="shortOnTime">Short on time?<svg
+            class="animate-pulse inline relative bottom-[2px] fill-white" style="width:24px;height:24px"
+            viewBox="0 0 24 24">
             <path fill="currentColor"
               d="M16.59,5.59L18,7L12,13L6,7L7.41,5.59L12,10.17L16.59,5.59M16.59,11.59L18,13L12,19L6,13L7.41,11.59L12,16.17L16.59,11.59Z" />
           </svg></a></p>
@@ -49,8 +54,9 @@
     </div>
     <!-- Projects and Ideas -->
     <div class="sticky top-0 h-screen flex flex-col items-center justify-around text-white bg-yellow-300" id="projects">
-      <h2 class="overline text-3xl sm:text-4xl md:text-7xl m-2 md:m-4 font-medium self-start">Projects / Ideas</h2>
-      <p class="bg-white rounded-lg text-blue-500 mx-2 md:mx-4 my-6 md:my-10 p-4 drop-shadow-md">Here are some things I am publicly
+      <h2 class="text-5xl sm:text-6xl md:text-7xl sm:font-medium md:font-semibold overline self-start mx-2 text-white">Projects / Ideas</h2>
+      <p class="bg-white rounded-lg text-blue-500 mx-2 md:mx-4 my-6 md:my-10 p-4 drop-shadow-md">Here are some things I
+        am publicly
         pondering, beginning to build, or endeavoring to explore.<br /> I've organized them by the issues they set out
         to solve.</p>
       <!-- Project List -->
@@ -76,7 +82,8 @@
         <li class="bg-white p-2 md:p-3 rounded-lg m-3 md:m-6 text-lg drop-shadow-lg">
           "What do I do with my music?"
           <p class="ml-6 mt-1">⮡<a href="./resources/html/music.html"
-              class="inline-block text-xl text-blue-500 bg-white border border-blue-600 hover:bg-blue-500 hover:text-white rounded-lg drop-shadow-lg px-2 py-0 ml-2 self-center">Share and practice!</a></p>
+              class="inline-block text-xl text-blue-500 bg-white border border-blue-600 hover:bg-blue-500 hover:text-white rounded-lg drop-shadow-lg px-2 py-0 ml-2 self-center">Share
+              and practice!</a></p>
         </li>
       </ul>
       <!-- Down Arrow -->
@@ -87,11 +94,10 @@
       </p>
     </div>
     <!-- About Me -->
-    <div
-      class="sticky top-0 h-screen flex flex-col items-center justify-around bg-orange-400 text-white"
-      id="aboutMe">
-      <h2 class="text-3xl sm:text-4xl md:text-6xl font-medium overline self-start m-4">About Me</h2>
-      <div id="data" class="flex flex-col text-center justify-between h-screen m-6">
+    <div class="sticky top-0 h-screen flex flex-col items-center justify-around bg-orange-400 text-white" id="aboutMe">
+      <h2 class="text-5xl sm:text-6xl md:text-7xl sm:font-medium md:font-semibold overline self-start mx-2 text-white">About Me</h2>
+      <!-- Tidbits -->
+      <div id="data" class="text-center m-6">
         <p class="bg-white p-2 md:p-3 rounded-lg m-1 sm:m-2 text-xs sm:text-sm drop-shadow-lg text-gray-500">
           Demographically, I am a <span class="font-semibold underline" data-ref="ageInYears"></span>-year-old man with
           a warm heart and a calm and open mind. I have a lovely wife and a toddler son with excessively curly hair.</p>
@@ -111,7 +117,8 @@
         <p class="bg-white p-3 rounded-lg m-1 sm:m-2 text-xs sm:text-sm drop-shadow-lg text-gray-500">
           I have set foot in <span class="font-semibold underline" data-ref="countriesVisited"></span> countries and
           spent a significant amount of time
-          in <span class="font-semibold underline" data-ref="statesVisited"></span> US states. I speak English and conversational Spanish comfortably. I even used to speak Esperanto!</p>
+          in <span class="font-semibold underline" data-ref="statesVisited"></span> US states. I speak English and
+          conversational Spanish comfortably. I even used to speak Esperanto!</p>
         <p class="bg-white p-3 rounded-lg m-1 sm:m-2 text-xs sm:text-sm drop-shadow-lg text-gray-500">
           I believe problems are best solved by viewing/understanding them in their totality.
           In doing this, the solution for the problem may reveal itself. The challenging part is
@@ -125,11 +132,13 @@
       </p>
     </div>
     <!-- End -->
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-around bg-orange-700 text-white" id="end">
-      <h2 class="m-4 overline text-6xl font-medium self-start">The End</h2>
+    <div class="sticky top-0 h-screen flex flex-col items-center justify-around text-white bg-orange-700" id="end">
+      <h2 class="text-5xl sm:text-6xl md:text-7xl sm:font-medium md:font-semibold overline self-start m-3 sm:m-4 md:m-4 mt-6 sm:mt-12 md:mt-20 text-white">The End</h2>
       <div class="bg-white p-3 rounded-lg m-2 text-md drop-shadow-lg text-blue-600">
-        <p id="zoomText" class="hidden text-center">Zooom! Straight to the links. Hope I saved you some time.<br>---<br></p>
-        <p class="text-center">Take a deep breath. You made it to the end!<br>Thank you for visiting my little corner on the internet.</p>
+        <p id="zoomText" class="hidden text-center">Zooom! Straight to the links. Hope I saved you some time.<br>---<br>
+        </p>
+        <p class="text-center">Take a deep breath. You made it to the end!<br>Thank you for visiting my little corner on
+          the internet.</p>
       </div>
       <div id="contact-icons" class="flex flex-row w-screen justify-around content-around max-w-1/2">
         <!-- Email Icon -->
@@ -161,5 +170,4 @@
     </div>
   </div>
 </body>
-
 </html>
