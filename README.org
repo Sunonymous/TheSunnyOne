@@ -1,0 +1,24 @@
+#+TITLE: The Sunny One
+#+AUTHOR: Sunny
+
+* Overview
+This is my personal website. It's a fairly simple, silly, and static site, and my first solo project using Tailwind CSS.
+* Notes
+- I like using Tailwind for the workflow. It still took me quite a while to get things rolling smoothly (if so much could be said). Also, I must admit that I do *not* have a designer's eye. My wife helped me out with that, repeatedly pointing out design-related issues that I was unable to see.
+- The layout of the site is basically four sticky "panes" of content on the landing page, each a different color. By scrolling down or clicking on the arrows at the bottom of each slide, the user may move between slides.
+  - There is also a button to skip from the top slide all the way down to the bottom (which contains a contact button and a link to my Github). This button adds an extra bit of text onto the last slide too.
+- The site itself has some interesting bits.
+  - The greeting at the top of the first page will change depending on the time of day you open the page.
+  - Hovering the mouse over the image of me toggles another picture of me, in color, "beaming" or something...it will also change the period at the end of the greeting to an ~!~.
+  - There are two "fake" tooltips which appear when hovering over text.
+  - The user can, if they wish to email me, either left-click the email button to open the system mail client, or right-click the button to copy my email address. 2022 UX. We live in the future.
+    - I did not incorporate the mobile version of this.
+  - There are certain references on the page, particularly in the ~About Me~ section, which are dynamically updated. For example, my age, how many countries and states I've visited.
+* Known Issues
+- The site is very clunky on mobile browsers. It *almost* works. From what I can gather, the issue arises because of the way the site is structured. There are four sticky divs, each having a vertical height of the screen/viewport size. This demands that all the content on each slide fit into a single screen. On larger monitors, this is easily achieved. On mobile, this was very hard to pull off.
+  - When the content is too vertically long, it pushes the slide headlines (at least) up into the preceding slides, ruining the effect and generally looking ugly.
+  - On top of this, the way mobile browsers display their pages varies. With certain browsers there is an address bar or toolbar that overlays and contracts when the user scrolls. This really detracts from the experience of browsing this page. Because of the details listed above, I'm unsure there's a good way around all of this.
+* Future Thoughts / Ideas
+- Add a link to the website repo at the bottom of the page.
+- I've written these notes to describe the page and the unresolved things about it. Honestly, I've considered starting from scratch. The effect achieved is visually-interesting, though because of the issues when trying to improve it on mobile browsers, it might be worth reworking it into a simpler, more "boring" design.
+  - This was a great starting site project, and I've learned a lot. Certainly the next iteration will flow a little better.
