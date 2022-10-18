@@ -20,5 +20,7 @@ This is my personal website. It's a fairly simple, silly, and static site, and m
   - On top of this, the way mobile browsers display their pages varies. With certain browsers there is an address bar or toolbar that overlays and contracts when the user scrolls. This really detracts from the experience of browsing this page. Because of the details listed above, I'm unsure there's a good way around all of this.
 * Future Thoughts / Ideas
 - Add a link to the website repo at the bottom of the page.
+- Add page about Practitrack.
+- Add Musical Practice Tools.
 - I've written these notes to describe the page and the unresolved things about it. Honestly, I've considered starting from scratch. The effect achieved is visually-interesting, though because of the issues when trying to improve it on mobile browsers, it might be worth reworking it into a simpler, more "boring" design.
   - This was a great starting site project, and I've learned a lot. Certainly the next iteration will flow a little better.
